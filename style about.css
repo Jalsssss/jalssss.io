@@ -5,7 +5,7 @@
     }
     
     header{
-    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(img/sky-clouds);
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),src(img/Space-Background-Images.jpg);
     height: 100vh;
     background-size: cover;
     background-position: center;
