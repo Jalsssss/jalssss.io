@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Build ChatGPT with Javascript</title>
+    <script src="https://cdn.jsdelivr.net/npm/iconify-icon@1.0.8/dist/iconify-icon.min.js"></script>
+    <link rel="stylesheet" href="styleAI.css">
+    <script defer src="AI.js"></script>
+</head>
+<body>
+<div class="app light">
+<aside>
+    <nav>
+        <div class="nav-top">
+            <button class="add-chat">
+            <iconify-icon icon="bi:window-plus"></iconify-icon> New Chat   
+            </button>
+            <ul class="chats">
+            <li>
+            <div>
+                <iconify-icon icon="bi:chat-dots" class="icon"></iconify-icon>
+                <span class="chat-title" contenteditable="">New Chat</span>    
+            </div>    
+            <div>
+                <iconify-icon icon="bi:trash" class="icon" onclick="removeChat(this)"></iconify-icon>
+                <iconify-icon icon="bi:vector-pen" class="icon" onclick="updateChatTitle(this)"></iconify-icon>
+            </div>
+             </li>
+                        
+            </ul>
+        </div>
+    <ul>
+    <li id="delete" >
+        <iconify-icon icon="bi:trash" class="icon" ></iconify-icon> clear conversation
+    </li>
+    <li>
+        <iconify-icon icon="akar-icons:gear" class="icon"></iconify-icon> settings
+    </li>
+    <li id="mode">
+        <iconify-icon icon="clarity:sun-line" class="icon"></iconify-icon>light mode
+    </li>  
+    <li>
+        <iconify-icon icon="icon-park-outline:english" class="icon"></iconify-icon> english
+    </li>      
+    </ul>
+    </nav>
+</aside>
+
+<main>
+<div class="hints">
+    <img src="/img/Screenshot_20231008-222758_Gallery.jpg" class="logo" >
+    <p> Enter your prompt</p>
+</div>
+
+<div class="qna">
+<div class="result">
+<div class="question">
+    <iconify-icon icon="material-symbols:person" class="icon blue"></iconify-icon>
+    <h3> What is biology</h3>
+</div>    
+
+<div class="answer">
+    <iconify-icon icon="codicon:robot" class="icon green"></iconify-icon>
+    <p> What is physics </p>
+
+ </div>
+</div>
+</div>
+<div class="request">
+    <div class="input-group">
+        <iconify-icon icon="bi:gear" class="icon"></iconify-icon>
+        <input type="text" placeholder="provide a prompt..." autofocus>
+        <button id="send">Send</button>  
+    </div>
+</div>
+</main>   
+</div>     
+</body>
+</html>

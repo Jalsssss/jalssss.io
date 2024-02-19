@@ -1,0 +1,248 @@
+*{
+    margin:0px;
+    padding:0px ;  
+    font-family: century ;
+    }
+    
+
+    header{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(/img/blank-living-room-interior-with-copy-space.jpg);
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+    }
+    ul{
+        float: right;
+        list-style-type: none;
+        margin-top: 30px;
+        min-height: 400px; 
+        margin-right: 40px;
+        font-size: 16px;
+    }
+    
+    ul li{
+        display: inline-block;
+    }
+    
+    ul li a{
+    text-decoration: none;
+    color: #fff;
+    padding: 5px 20px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+    }
+    
+    ul li a:hover{
+        background-color: #fff;
+        color: #000;
+    }
+    
+    ul li.active a{
+        background-color: #fff;
+        color: #000;    
+    }
+    
+    .logo img{
+    float:left ;
+    width: 150px;
+    height:auto;
+    }
+    
+    .main{
+    max-width: 1200px;    
+    margin:auto;
+    }
+    
+    .title{
+    position:absolute ;
+    top:47%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    }
+    
+    .title h1{
+    color: #fff;
+    font-size:70px;   
+    }
+    
+    .button{
+        position:absolute ;
+        top:54%;
+        left:50%;
+        transform: translate(-50%,-50%);    
+    }
+    
+    .btn{
+    border:1px solid #fff;
+    padding: 5px 20px;
+    color: #fff;
+    transition: 0.5 ease;
+    font-size: 18px;
+    text-decoration:none;
+    }
+    
+    .btn:hover{
+    background-color: #fff;
+    color: #000;    
+    }
+    
+    .sub-menu{
+    display: none;
+    top: 6%;
+    position: relative;
+    }
+    
+    .sub-menu ul{
+     position:absolute;    
+    }
+    
+    .main ul li:hover .sub-menu{
+        display: block;
+        position: absolute;
+        background-color: rgb(0,45,117);
+        margin-top:12px;
+        margin-left:-8px; 
+    }
+    
+    .main ul li:hover .sub-menu ul{
+     display: block;
+     margin: 6px;    
+    }
+    
+    .main ul li:hover .sub-menu ul li{
+    width: 75px;
+    padding: 5px;
+    border: 1px #fff;
+    background: transparent;
+    transition: 0.4 ease;   
+    text-align:left; 
+    border-radius:0px ;
+    }
+
+    .centered {
+        position: absolute;
+        top: 20%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        font-size: 40px;
+        color: #000; 
+        margin-bottom:25px;
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    .gallery{
+    margin: 10px 50px;    
+    }
+
+    .first img{
+    width: 230px;
+    padding: 5px;
+    filter: grayscale(100%);
+    position: absolute;
+    transition: 1s;
+    position: absolute;
+    top: 40%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+    color: #000; 
+    margin-bottom:5px;
+    }
+
+    .second{
+        width: 230px;
+        padding: 5px;
+        filter: grayscale(100%);
+        position: absolute;
+        transition: 1s;
+        position: absolute;
+        bottom: 1px;
+        left: 15%;
+        transform: translate(-5%, 5%);
+        color: #000; 
+        margin-bottom:5px;
+        scale: 10%;    
+    }
+    
+    .third{
+        width: 230px;
+        padding: 5px;
+        filter: grayscale(100%);
+        position: absolute;
+        transition: 1s;
+        position: absolute;
+        bottom: 1px;
+        left: 30%;
+        transform: translate(-5%, 5%);
+        color: #000; 
+        margin-bottom:5px;
+        scale: 10%;    
+    }
+
+    .four{
+        width: 230px;
+        padding: 5px;
+        filter: grayscale(100%);
+        position: absolute;
+        transition: 1s;
+        position: absolute;
+        bottom: 1px;
+        left: 45%;
+        transform: translate(-5%, 5%);
+        color: #000; 
+        margin-bottom:5px;
+        scale: 10%;    
+    }
+
+    .five{
+        width: 230px;
+        padding: 5px;
+        filter: grayscale(100%);
+        position: absolute;
+        transition: 1s;
+        position: absolute;
+        bottom: 1px;
+        left: 60%;
+        transform: translate(-5%, 5%);
+        color: #000; 
+        margin-bottom:5px;
+        scale: 10%;    
+    }
+
+    .six{
+        width: 230px;
+        padding: 5px;
+        filter: grayscale(100%);
+        position: absolute;
+        transition: 1s;
+        position: absolute;
+        bottom: 1px;
+        left: 75%;
+        transform: translate(-5%, 5%);
+        color: #000; 
+        margin-bottom:5px;
+        scale: 10%;    
+    }    
+
+    .six:hover{
+        filter: grayscale(0);    
+        }
+
+    .five:hover{
+        filter: grayscale(0);    
+        }
+
+    .four:hover{
+        filter: grayscale(0);    
+        }
+
+    .third:hover{
+        filter: grayscale(0);    
+        }
+
+    .second:hover{
+    filter: grayscale(0);    
+    }
+
+    .gallery img:hover{
+    filter: grayscale(0);    
+    }
